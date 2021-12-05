@@ -80,7 +80,7 @@ The PyBer Summary DataFrame is arranged as displayed in the model above, adding 
 
 * A DataFrame was created using the `groupby()` function on the "type" and "date" columns, and the `sum()` method is applied on the "fare" column to show the total fare amount for each date and time. 
 * A DataFrame was created using the `pivot()` function where the index is the "date," the columns are the city "type," and the values are the "fare." 
-* A DataFrame was created using the `loc` method on the date range: 2019-01-01 through 2019-04-28. 
+* A DataFrame was created using the `loc` method on the date range: 2019-01-01 through 2019-04-29. 
 * A DataFrame was created using the `resample()` function in weekly bins and shows the sum of the fares for each week.
 * An annotated chart showing the total fares by city type is created and saved to the "analysis" folder.
 
@@ -94,7 +94,7 @@ A DataFrame was created using the `pivot()` function where the index is the "dat
 
 ![](https://github.com/DougUOT/PyBer_Analysis/blob/main/Resources/Images/Delivery2_fig2.PNG)
 
-A DataFrame was created using the `loc` method on the date range: 2019-01-01 through 2019-04-28: 
+A DataFrame was created using the `loc` method on the date range: 2019-01-01 through 2019-04-29: 
 
 ![](https://github.com/DougUOT/PyBer_Analysis/blob/main/Resources/Images/Delivery2_fig3.PNG)
 
