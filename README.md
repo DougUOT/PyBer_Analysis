@@ -11,8 +11,9 @@ For data analysis, three files were used; [PyBer_ride_data.csv](https://github.c
 
 Follow below the goals for this module:
 
-1) Using pictures from the summary DataFrame and multiple-line chart, describe the differences in ride-sharing data among the different city types.
-2) Based on the outcomes, give three business suggestions to the CEO for addressing any disparities among the city types
+1) Using pictures from the summary DataFrame and multiple-line chart, describe the differences in ride-sharing data among the different city types
+2) Using your Pandas skills and two new functions, `pivot()` and `resample()`, create a multiple-line graph that shows the total fares for each week by city type
+3) Based on the outcomes, give three business suggestions to the CEO for addressing any disparities among the city types
 
 ## Resources
 
@@ -76,6 +77,36 @@ We created the PyBer summary DataFrame with total rides, total drivers, total fa
 The PyBer Summary DataFrame is arranged as displayed in the model above, adding the two-digit currency format for total fares, average fare per ride and average fare per driver
 
 ### Objective 2
+
+* A DataFrame was created using the `groupby()` function on the "type" and "date" columns, and the `sum()` method is applied on the "fare" column to show the total fare amount for each date and time. 
+* A DataFrame was created using the `pivot()` function where the index is the "date," the columns are the city "type," and the values are the "fare." 
+* A DataFrame was created using the `loc` method on the date range: 2019-01-01 through 2019-04-28. 
+* A DataFrame was created using the `resample()` function in weekly bins and shows the sum of the fares for each week.
+* An annotated chart showing the total fares by city type is created and saved to the "analysis" folder.
+
+
+
+A DataFrame was created using the `groupby()` function on the "type" and "date" columns, and the sum() method is applied on the "fare" column to show the total fare amount for each date and time:
+
+![](https://github.com/DougUOT/PyBer_Analysis/blob/main/Resources/Images/Delivery2_fig1.PNG)
+
+A DataFrame was created using the `pivot()` function where the index is the "date," the columns are the city "type," and the values are the "fare.": 
+
+![](https://github.com/DougUOT/PyBer_Analysis/blob/main/Resources/Images/Delivery2_fig2.PNG)
+
+A DataFrame was created using the `loc` method on the date range: 2019-01-01 through 2019-04-28: 
+
+![](https://github.com/DougUOT/PyBer_Analysis/blob/main/Resources/Images/Delivery2_fig3.PNG)
+
+A DataFrame was created using the `resample()` function in weekly bins and shows the sum of the fares for each week:
+
+![](https://github.com/DougUOT/PyBer_Analysis/blob/main/Resources/Images/Delivery2_fig4.PNG)
+
+An annotated chart showing the total fares by city type is created and saved to the "analysis" folder:
+
+![](https://github.com/DougUOT/PyBer_Analysis/blob/main/Resources/Images/Delivery2_fig5.PNG)
+
+### Objective 3
 
 ### First business suggestion
 
