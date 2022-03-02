@@ -3,13 +3,13 @@ Creating visualizations of rideshare data for PyBer to help improve access to ri
 
 ## Overview of Project
 
-This project regarding Module 5: PyBer, is a ride-sharing application organization. We will play out an exploratory investigation of data in a large csv records to make an assortment of graphs that feature the connection between the sort of city, and the quantity of drivers and riders, just as as the percentage of the total fares, riders and drivers by type of city. The results and findings will assist the PyBer with further improve access to ride-sharing services and determine affordability for underserved neighbourhoods
+Project PyBer is a ride-sharing application organization. We will play out an exploratory investigation of data in a large csv records to make an assortment of graphs that feature the connection between the sort of city, and the quantity of drivers and riders, just as as the percentage of the total fares, riders and drivers by type of city. The results and findings will assist the PyBer with further improve access to ride-sharing services and determine affordability for underserved neighbourhoods
 
-As Data Analyst, we are working with Jupyter Notebook and Pandas, using Python's Library such as Matplotlib, SciPy, NumPy. We work with crude information data from CSV reports, inspect data, Merge data sets, Perform Calculations, create data series, data frames, and data visualization. Likewise, we utilized Matplotilb to make graphs, for example, line charts, bar charts, scatter plots, bubble charts, pie charts, and box-and-whisker plots showing discoveries in a valuable and connecting way to all stakeholders. Also, we utilized Pandas, SciPy and NumPy to perform summary statistics. This assignment is related to the Bootcamp Data Analytics from the University of Toronto.
+As Data Analyst, we are working with Jupyter Notebook and Pandas, using Python's Library such as Matplotlib, SciPy, NumPy. We work with crude information data from CSV reports, inspect data, Merge data sets, Perform Calculations, create data series, data frames, and data visualization. Likewise, we utilized Matplotilb to make graphs, for example, line charts, bar charts, scatter plots, bubble charts, pie charts, and box-and-whisker plots showing discoveries in a valuable and connecting way to all stakeholders. Also, we utilized Pandas, SciPy and NumPy to perform summary statistics. 
 
 For data analysis, three files were used; [PyBer_ride_data.csv](https://github.com/DougUOT/PyBer_Analysis/blob/main/Resources/PyBer_ride_data.csv), [city_data.csv](https://github.com/DougUOT/PyBer_Analysis/blob/main/Resources/city_data.csv) and [ride_data.csv](https://github.com/DougUOT/PyBer_Analysis/blob/main/Resources/ride_data.csv),representing 2,375 rides in 121 cities with information such as average fare in US$ per month, provided by the company PyBer.
 
-Follow below the goals for this module:
+Follow below the goals for this project:
 
 1) Using pictures from the summary DataFrame and multiple-line chart, describe the differences in ride-sharing data among the different city types
 2) Using your Pandas skills and two new functions, `pivot()` and `resample()`, create a multiple-line graph that shows the total fares for each week by city type
